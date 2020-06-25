@@ -10,6 +10,11 @@
         "feed": "https://jacquesmattheij.com/rss.xml"
     },
     {
+        "title": "James Stanley",
+        "url": "https://incoherency.co.uk/blog/",
+        "feed": "https://incoherency.co.uk/blog/rss.xml"
+    },
+    {
         "title": "WhyNot.Fail",
         "url": "https://whynot.fail/",
         "feed": "https://whynot.fail/index.xml"
