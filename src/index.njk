@@ -7,18 +7,18 @@ layout: base
 <div class="markdown">
     <h2>What's this?</h2>
     <p>
-        A community of sites around a common topic, also known as a <a href="https://en.wikipedia.org/wiki/Webring">webring</a>. 
-        Each member includes a badge on their site that links to the previous and next sites in the ring. 
+        A community of sites around a common topic, also known as a <a href="https://en.wikipedia.org/wiki/Webring">webring</a>.
+        Each member includes a badge on their site that links to the previous and next sites in the ring.
         Kids in the 90s used to love it!
     </p>
 
     <h2>How to join</h2>
     <p>
-        To join the webring, <a href="{{ meta.repo }}/compare">open a pull request</a> 
+        To join the webring, <a href="{{ meta.repo }}/compare">open a pull request</a>
         and supply the name and URL of your site. If you publish a RSS feed, you can provide that as well.
     </p>
     <p>
-        If you don't have a Github account, you can also use this form to sign up. 
+        If you don't have a Github account, you can also use this form to sign up.
         The webring admins will then look at your site and handle your request.
     </p>
 
@@ -32,6 +32,13 @@ layout: base
     {% highlight 'html' %}{% include 'snippet.njk' %}{% endhighlight %}
 
     <p>
+        If you don't like JS or just don't want the default widget, you can just link to the proper URLs and style the
+        section yourself:
+    </p>
+
+    {% highlight 'html' %}{% include 'links.njk' %}{% endhighlight %}
+
+    <p>
         It will render this banner that links to the other members:
     </p>
 
@@ -39,8 +46,8 @@ layout: base
 
     <h2>Want to host your own webring?</h2>
     <p>
-        If you want to start your own webring, fork 
-        <a href="https://github.com/maxboeck/webring">this project</a> on Github 
+        If you want to start your own webring, fork
+        <a href="https://github.com/maxboeck/webring">this project</a> on Github
         and follow the instructions in the README.
     </p>
 
