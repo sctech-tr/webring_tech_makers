@@ -23,5 +23,10 @@
         "title": "sirodoht blog",
         "url": "https://sirodoht.com/",
         "feed": "https://sirodoht.com/rss"
+    },
+    {
+        "title": "Joost Plattel",
+        "url": "https://jplattel.nl/",
+        "feed": "https://jplattel.nl/index.xml"
     }
 ]
